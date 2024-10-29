@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ryan Hindriks">
+    <meta name="description" content="Portfolio van Ryan Hindriks, webdeveloper en designer.">
+    <meta name="keywords" content="Ryan Hindriks, Xarach, portfolio, webdeveloper, designer, softwareontwikkelaar">
+    <meta name="version" content="1.0.">
+    <title>Portfolio Ryan Hindriks</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Begin Header -->
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                <img src="../assets/pictures/xarachcodes.png" alt="Logo" />
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="../index.html">_home</a></li>
+                    <li><a href="about.html">_about</a></li>
+                    <li><a href="portfolio.html" class="active">_portfolio</a></li>
+                    <li><a href="skills.html">_skills</a></li>
+                    <li><a href="contact.html">_contact</a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <!--End Header-->
+
+    <!--Begin Main-->
+    <main>
+        <h1 id="typewriter">{ <span id="dynamic-portfolio-text"></span><span class="cursor-portfolio">|</span> }</h1><br>
+        <p>…lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla elementum, eros<br>
+            at sagittis facilisis, ante est rutrum ligula, at interdum eros sapien vel<br>
+            magna.</p><br>
+            <br>
+            <br>
+            <h2>&lt;contact_me&gt;</h2><br>
+            <p>...If you have any questions, don’t hesitate to send me a message!.</p><br>
+            <br>
+            <div class="form-container">
+                <h2>Contact</h2>
+                <form action="your_form_handler.php" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+        
+                    <button type="submit">{sent}</button>
+                </form>
+            </div>
+    </main>
+    <!--End Main-->
+
+    <!--Begin footer-->
+    <footer class="footer">
+        <p class="footer">Copyright @ 2024 Xarachcodes</p>
+    </footer>
+    <!--End footer-->
+
+    <!--Javascript assets-->
+    <script src="../assets/main.js"></script>
+
+</body>
+</html>

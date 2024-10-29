@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ryan Hindriks">
+    <meta name="description" content="Portfolio van Ryan Hindriks, webdeveloper en designer.">
+    <meta name="keywords" content="Ryan Hindriks, Xarach, portfolio, webdeveloper, designer, softwareontwikkelaar">
+    <meta name="version" content="1.0.">
+    <title>Portfolio Ryan Hindriks</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Begin Header -->
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                <img src="../assets/pictures/xarachcodes.png" alt="Logo" />
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="../index.html">_home</a></li>
+                    <li><a href="about.html" class="active">_about</a></li>
+                    <li><a href="portfolio.html">_portfolio</a></li>
+                    <li><a href="skills.html">_skills</a></li>
+                    <li><a href="contact.html">_contact</a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <!--End Header-->
+
+    <!--Begin Main-->
+    <main class="content">
+        <h1 id="typewriter">{ <span id="dynamic-about-text"></span><span class="cursor-about">|</span> }</h1><br>
+        <br>
+        <p>…Hi, I’m Ryan, a dedicated Software Development student with a passion for technology and design. Currently, I’m diving into both software development<br>
+         and graphic design, combining technical skills with creativity. I have experience with frameworks like Laravel and Vue and enjoy staying up-to-date with<br>
+        the latest tech trends. Alongside my studies, I’m working on my personal portfolio and preparing for an internship where I can apply my knowledge and<br>
+        further grow as a developer.</p><br>
+        <br><h3 class="h3-2">…”As a dedicated software development student, I am passionate about expanding<br>
+         my expertise beyond coding. My ambition is to evolve into a well-rounded full-<br>
+         stack developer while mastering the art of graphic design. I am driven by the<br>
+         creative and technical synergy that both disciplines offer, and I’m committed to<br>
+        honing my skills to bridge aesthetics with functionality. This journey to<br>
+        become a versatile designer and developer fuels my dedication, and I am excited<br>
+        to continuously learn, grow, and create impactful digital experiences.”</h3><br>
+        </p><br>
+
+        <div class="banner-frame">
+            <img src="../assets/pictures/banner1.jpg" alt="banner1" class="banner1-image">
+        </div>
+
+        <h2>&lt;My Ambitions&gt;</h2><br>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>{/} _front-end developer</h3>
+                <p>...I’m drawn to front-end development because it allows me to blend creativity with technical skills, bringing designs to life in a way users can see and interact with directly. I love creating intuitive, visually appealing interfaces that enhance the user experience and make technology more accessible and enjoyable.</p>
+            </div>
+            <div class="grid-item">
+                <h3>{!} _back-end developer</h3>
+                <p>...I’m passionate about back-end development because it’s the engine that powers applications, ensuring they run smoothly and efficiently behind the scenes. I enjoy the challenge of building secure, scalable systems and managing data effectively to support seamless user experiences. For me, back-end development is where functionality and logic come together to make great applications possible.</p>
+            </div>
+            <div class="grid-item">
+                <h3>{#} _Graphical designer</h3>
+                <p>...I’m passionate about graphic design because it combines creativity with communication, allowing me to craft visuals that convey ideas, emotions, and stories. I love using color, typography, and layout to create designs that not only catch the eye but also engage and resonate with people. For me, graphic design is a powerful tool to make concepts memorable and impactful.</p>
+            </div>
+            <div class="grid-item">
+                <h3>{x} _full-stack</h3>
+                <p>...I aspire to be a full-stack developer because it offers the best of both worlds—bringing together the creativity of front-end development with the technical depth of back-end work. Being able to build complete, end-to-end solutions allows me to understand and control the entire development process, creating cohesive, high-quality applications. I’m excited by the versatility and problem-solving opportunities that come with being a full-stack developer, enabling me to bring ideas to life from start to finish.</p>
+            </div>
+        </div>
+
+            <div class="banner-frame2">
+                <img src="../assets/pictures/banner2.jpg" alt="banner2" class="banner1-image">
+            </div>
+
+            <h2>&lt;contact_me&gt;</h2><br>
+            <p>...If you have any questions, don’t hesitate to send me a message!.</p><br>
+            <br>
+            <div class="form-container">
+                <h2>Contact</h2>
+                <form action="your_form_handler.php" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+        
+                    <button type="submit">{sent}</button>
+                </form>
+            </div>
+    </main>
+    <!--End Main-->
+
+    <!--Begin footer-->
+    <footer class="footer">
+        <p class="footer">Copyright @ 2024 Xarachcodes</p>
+    </footer>
+    <!--End footer-->
+
+    <!--Javascript assets-->
+    <script src="../assets/main.js"></script>
+
+</body>
+</html>

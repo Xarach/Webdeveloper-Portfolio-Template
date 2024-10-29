@@ -1,0 +1,318 @@
+/***
+Project Name: Webdeveloper Portfolio.
+Author: Ryan Hindriks.
+Description: Portfolio van Ryan Hindriks, webdeveloper en designer.
+Version: 1.0
+===================================================================
+***/
+
+/*Speciale Google font*/
+.vt323-regular {
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+p {
+    font-family: "VT323", serif;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #dbc64b;
+}
+
+
+.body {
+    font-family: "VT323", serif;
+}
+
+body {
+    background-color: #181817;
+}
+
+  
+/* Reset stijlen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stijlen voor het menu */
+.menu {
+    background-color: #181817;
+    padding: 10px 0;
+    text-align: right;
+}
+
+.menu ul {
+    list-style-type: none;
+    font-family: "VT323", serif;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #dbc64b;
+    font-size: 22px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+/* Stijl voor het actieve menu-item */
+.menu a.active {
+    color: #1d85da;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #181817;
+    color: #dbc64b;
+}
+
+/* Wrapper met zijruimte */
+.wrapper {
+    max-width: 1900px; /* Stel de breedte van de centrale content in */
+    margin: 0 auto; /* Centreert de wrapper en zorgt voor gelijke ruimte aan beide kanten */
+    padding: 0 20px; /* Optioneel: extra padding binnen de wrapper */
+}
+
+.h3-1 {
+    color: #dbdbdb;
+    text-align: center;
+    font-family: "VT323", serif;
+    margin-bottom: 20px;
+}
+
+.h3-2 {
+    color: #dbdbdb;
+    text-align: center;
+    font-family: "VT323", serif;
+    margin-bottom: 20px;
+    font-size: 135%;
+}
+
+.h3-3 {
+    color: #dbdbdb;
+    text-align: center;
+    font-family: "VT323", serif;
+    margin-bottom: 20px;
+    font-size: 135%;
+}
+
+h1 {
+    color: #dbdbdb;
+    text-align: center;
+    font-family: "VT323", serif;
+    font-size: 400%;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 50px; /* Pas deze waarde aan om de ruimte groter te maken */
+}
+
+/* Javascript typewriter */
+#typewriter {
+    font-size: 400%;
+    color: #dbdbdb; /* Kleur van de accolades */
+  }
+  
+  .cursor {
+    animation: blink 0.7s infinite;
+    color: #dbc64b;
+  }
+
+  .cursor-about {
+    animation: blink 0.7s infinite;
+    color: #1d85da;
+  }
+
+  .cursor-portfolio {
+    animation: blink 0.7s infinite;
+    color: #1d85da;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+.about-highlight {
+    color: #1d85da; /* Kies een kleur naar wens */
+}
+
+.portfolio-highlight {
+    color: #007bff; /* Kies een kleur die opvalt voor de portfolio-tekst */
+    font-weight: bold;
+  }
+
+.contact-highlight {
+    color: #007bff; /* Kies een kleur die opvalt voor de portfolio-tekst */
+    font-weight: bold;
+  }
+
+.skills-highlight {
+    color: #007bff; /* Kies een kleur die opvalt voor de portfolio-tekst */
+    font-weight: bold;
+  }
+
+
+.highlight {
+    color:#dbc64b
+}
+
+.home-highlight {
+    color: #dbc64b; /* Kies een kleur naar wens */
+}
+
+.home-highlight-1 {
+    color: #dbc64b; /* Kies een kleur naar wens */
+  }
+  
+  .home-highlight-2 {
+    color: #1d85da; /* Kies een kleur naar wens */
+  }
+  
+  .home-highlight-3 {
+    color: #c090e7; /* Kies een kleur naar wens */
+  }
+  
+
+.banner-frame {
+    position: relative;
+    display: inline-block; 
+    margin-bottom: 80px;
+}
+
+.banner-frame2 {
+    position: relative;
+    display: inline-block; /* Zorgt ervoor dat de overlay rondom de afbeelding blijft */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.banner1-image {
+    width: 100%; /* Zorgt ervoor dat de afbeelding de volledige breedte van de container inneemt */
+    height: auto;
+    display: block;
+}
+
+h2 {
+    font-family: "VT323", serif;
+    font-size: 400%;
+    text-align: center;
+    color: #dbdbdb;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Zorgt voor 2 kolommen */
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #333333;
+    border: 2px solid #444444;
+    padding: 20px;
+    border-radius: 8px;
+    color: #dbc64b;
+    font-family: "VT323", serif;
+}
+
+.grid-item h3 {
+    font-size: 40px;
+    color: #eaeaea;
+    text-align: center;
+}
+
+.grid-item p {
+    font-size: 20px;
+    color: #dbc64b;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Zet het raster op één kolom op kleinere schermen */
+    }
+}
+
+/* Contact Form Container */
+.form-container {
+    background-color: #333333;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100vw; /* Volledige breedte van het scherm */
+    margin: 0 auto;
+    text-align: center;
+    font-family: "VT323", serif;
+    box-sizing: border-box; /* Zorgt ervoor dat padding wordt meegerekend */
+}
+
+/* Header of Contact Form */
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #dbc64b;
+}
+
+/* Input Fields */
+.form-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #eaeaea;
+    padding-left: 10px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 98%; /* Volledige breedte met een beetje marge aan de zijkanten */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    background-color: #222222;
+    color: #eaeaea;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.form-container textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+.form-container button {
+    padding: 10px 20px;
+    background-color: #1d85da;
+    color: #eaeaea;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    width: 50%; /* Knopbreedte; pas aan naar wens */
+    max-width: 300px;
+}
+
+.form-container button:hover {
+    background-color: #155a8a;
+}
+
+
+.footer {
+    text-align: right;
+}
