@@ -7,3 +7,6 @@ With a foundational knowledge in HTML, CSS, and JavaScript, I took on this proje
 As I continue to gain experience, I look forward to bringing fresh ideas and creative solutions to future projects. Thank you for visiting my portfolio, and I hope you enjoy exploring my work as much as I enjoyed creating it.
 
 Ryan Hindriks
+
+
+https://xarach.github.io/Webdeveloper-Portfolio-Template/
